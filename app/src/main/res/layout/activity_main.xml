@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="adammia.example.com.mdquiz.MainActivity">
+
+    <LinearLayout
+        style="@style/lyn_layout">
+
+        <TextView
+            style="@style/intro0"
+            android:text="@string/intro0"
+            />
+
+        <WebView
+            android:id="@+id/webview_intro1"
+            style="@style/web_text"
+          />
+
+        <ImageView
+            style="@style/img_header"
+            android:src="@drawable/head" />
+
+        <WebView
+            android:id="@+id/webview_intro2"
+            style="@style/web_text"/>
+
+        <Button
+            style="@style/button_style"
+            android:onClick="clickedButtonStart"
+            android:text="@string/start_quiz" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\adammia\Desktop\MDQuiz\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\adammia\Desktop\MDQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bd9fbafe03d9a9eee0a7aad5e26d57cd0b008e1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\adammia\Desktop\MDQuiz\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="527eb2309e6bbff3f120022a7388117d088ea078">
+        <dex dex="C:\Users\adammia\Desktop\MDQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a40f4932d76c6b3a190243d49119ed8acc2c844b\classes.dex" />
+    </item>
+
+</items>

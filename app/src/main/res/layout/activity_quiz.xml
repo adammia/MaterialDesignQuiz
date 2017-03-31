@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="adammia.example.com.mdquiz.QuizActivity">
+
+
+
+<ScrollView
+        style="@style/scroll_view">
+
+        <LinearLayout
+            style="@style/card_layout">
+
+            <TextView
+                android:id="@+id/question_number"
+                style="@style/intro0"
+                android:text="Question Number: 1"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/score_number"
+                style="@style/intro0"
+                android:text="Your final score: 0"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/sample_img_header"
+                android:src="@drawable/mdesigns" />
+
+            <TextView
+                android:id="@+id/question_text"
+                style="@style/sample_header_text"
+                android:text="This is question text"/>
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                style="@style/radio_group_theme"
+                android:visibility="invisible"
+                tools:visibility="visible">
+                </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/question_answer"
+                style="@style/edit_text"
+                android:hint="@string/answer"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/evaluate_text"
+                style="@style/web_text"
+                android:text="@string/evaluate_text"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/rating_style"
+
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button_try_again"
+                style="@style/button_style"
+                android:layout_below="@id/ratingBar"
+                android:onClick="tryAgain"
+                android:text="Try Again"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/button_next_question"
+                style="@style/button_style"
+                android:layout_below="@id/radio_group"
+                android:onClick="nextQuestion"
+                android:text="Next"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/button_submit_question"
+                style="@style/button_style"
+                android:layout_below="@id/radio_group"
+                android:onClick="submitQuestion"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

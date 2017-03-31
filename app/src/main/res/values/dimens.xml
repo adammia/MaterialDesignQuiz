@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="headerText">16sp</dimen>
+    <dimen name="introText">22sp</dimen>
+    <dimen name="marginVertical">8dp</dimen>
+    <dimen name="cardText">18sp</dimen>
+    <dimen name="rElevation">5dp</dimen>
+    <dimen name="rPadding">8dp</dimen>
+    <dimen name="tPadding">4dp</dimen>
+    <dimen name="tElevation">2dp</dimen>
+</resources>

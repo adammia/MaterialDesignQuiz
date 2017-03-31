@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorSecondary">@color/primary_text</item>
+        <item name="android:windowBackground">@color/primary_light</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="lyn_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#E0E0E0</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/rPadding</item>
+    </style>
+
+    <style name="card_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation">@dimen/rElevation</item>
+        <item name="android:textSize">@dimen/cardText</item>
+        <item name="android:layout_margin">@dimen/marginVertical</item>
+    </style>
+
+    <style name="intro0">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/introText</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/cardBackground</item>
+        <item name="android:elevation">@dimen/tElevation</item>
+        <item name="android:layout_marginBottom">@dimen/marginVertical</item>
+    </style>
+
+    <style name="intro12">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/introText</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/cardBackground</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:elevation">@dimen/tElevation</item>
+        <item name="android:layout_marginBottom">@dimen/marginVertical</item>
+    </style>
+
+
+    <style name="web_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/headerText</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/cardBackground</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:elevation">@dimen/tElevation</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">@dimen/marginVertical</item>
+    </style>
+
+
+    <style name="sample_header_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/headerText</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/cardBackground</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:elevation">@dimen/tElevation</item>
+        <item name="android:padding">@dimen/tPadding</item>
+        <item name="android:layout_marginBottom">@dimen/marginVertical</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textSize">@dimen/headerText</item>
+    </style>
+
+    <style name="radio_group_theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/headerText</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:elevation">@dimen/rElevation</item>
+        <item name="android:padding">@dimen/rPadding</item>
+    </style>
+
+    <style name="img_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="sample_img_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/cardBackground</item>
+    </style>
+
+    <style name="rating_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+</resources>
