@@ -1,3 +1,3 @@
 # MaterialDesignQuiz
-Material Design edu Quiz App for Android. Project for Udacity Android Development for Beginners
+This Quiz App (Project 3) for Udacity's Android Basics Nanodegree by Google. For education purposes only!
 https://youtu.be/BzzwiluiCZA
